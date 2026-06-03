@@ -99,7 +99,7 @@ async def generate_prompts(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "anthropic-version": "2023-06-01"
                 },
                 json={
-                    "model": "claude-sonnet-4-20250514",
+                    "model": "claude-sonnet-4-5",
                     "max_tokens": 4000,
                     "system": "Ти генеруєш промпти для рекламних зображень. Відповідай ТІЛЬКИ валідним JSON без markdown і backtick.",
                     "messages": [{"role": "user", "content": prompt}]
